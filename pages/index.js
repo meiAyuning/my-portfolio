@@ -40,22 +40,22 @@ export default function Home(props) {
                     </a>
                   </li>
                   <li className="page-scroll">
-                    <a href="{props.hasil[0].header[1].navbar.about.link}">
+                    <a href={props.hasil[0].header[1].navbar.about.link}>
                       {props.hasil[0].header[1].navbar.about.title}
                     </a>
                   </li>
                   <li className="page-scroll">
-                    <a href="{props.hasil[0].header[1].navbar.service.link}">
+                    <a href={props.hasil[0].header[1].navbar.service.link}>
                       {props.hasil[0].header[1].navbar.service.title}
                     </a>
                   </li>
                   <li className="page-scroll">
-                    <a href="{props.hasil[0].header[1].navbar.portfolio.link}">
+                    <a href={props.hasil[0].header[1].navbar.portfolio.link}>
                       {props.hasil[0].header[1].navbar.portfolio.title}
                     </a>
                   </li>
                   <li className="page-scroll">
-                    <a href="{props.hasil[0].header[1].navbar.contact.link}">
+                    <a href={props.hasil[0].header[1].navbar.contact.link}>
                       {props.hasil[0].header[1].navbar.contact.title}
                     </a>
                   </li>
